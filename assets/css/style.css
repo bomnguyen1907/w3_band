@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết
+
+*/
+
+/* 
+1. location
+2. size (width and height)  
+3. color
+4. Style: font, circle, square
+*/
+
+#main {
+    
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav li:hover a {
+    color: black;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    position: absolute;
+    background-color: #fff;
+}
+
+#nav .subnav a{
+    color: black;
+}
+
+#slider {
+    min-height: 500px;
+    background-color: #ffffff;
+}
+
+#content {
+    
+}
+
+#footer {
+    
+}
+
